@@ -440,6 +440,14 @@ ul {
 .footer-soc {
 }
 
+.footer-soc-title {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--hero-color);
+  margin-bottom: 16px;
+}
+
 .footer-soc-list {
   width: 40px;
   height: 40px;
@@ -450,6 +458,21 @@ ul {
   height: 100%;
   display: flex;
   align-items: center;
+  background-color: var(--logo-color);
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.footer-soc-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-soc-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-soc-icon {
+  fill: var(--footer-text-color);
 }
 
 .footer-soc-menu {
