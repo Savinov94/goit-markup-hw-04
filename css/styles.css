@@ -133,6 +133,7 @@ ul {
 }
 
 .header-menu-link::after {
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
