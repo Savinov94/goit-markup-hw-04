@@ -400,6 +400,7 @@ ul {
 }
 /* section 5 */
 .customers {
+  padding: 120px 0;
 }
 .customers-container {
 }
@@ -439,6 +440,10 @@ ul {
 .customers-list-link:focus {
   border-color: #404bbf;
   color: #404bbf;
+}
+
+.customers-icon {
+  fill: currentColor;
 }
 
 /* footer */
